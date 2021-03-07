@@ -45,3 +45,19 @@ class facturaViewSet(viewsets.ModelViewSet):
         return Response(serializer.data, status=status.HTTP_CREATED_201)
     
     
+"""class facturaSumaViewSet(viewsets.ModelViewSet):    
+    
+        queryset = factura.objects.only('nombreFactura', 'cliente', 'total')        
+        serializer_class = reporteSerializer
+        permission_classes = [permissions.IsAuthenticated]"""
+        
+    
+
+    
+
+
+
+
+
+
+
